@@ -24,7 +24,7 @@ module.exports = {
     ADM: process.env.ANTIDELETE || 'on',
     AR: process.env.AUTO_REACTION || 'off',
 
-    AUTO_VIEW_STATUS: process.env.AUTO_READ_STATUS === 'on',
+    AUTO_VIEW_STATUS: process.env.AUTO_READ_STATUS === 'off',
     AUTO_LIKE: process.env.AUTO_LIKE === 'on',
     AUTO_READ_MESSAGES: process.env.AUTO_READ_DM === 'on',
     HEROKU_API_KEY: process.env.HEROKU_API_KEY,
