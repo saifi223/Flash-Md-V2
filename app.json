@@ -64,18 +64,18 @@
     },
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number in international format (e.g. 254742063630)",
-      "value": "",
+      "value": "923331529200",
       "required": true
     },
     "HEROKU_API_KEY": {
       "description": "Your Heroku account API key (found in account settings)",
       "value": "",
-      "required": true
+      "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "The name of your app on Heroku (must match your dashboard app name)",
       "value": "",
-      "required": true
+      "required": false
     }
   },
   "formation": {
